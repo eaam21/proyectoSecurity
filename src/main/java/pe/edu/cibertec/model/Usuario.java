@@ -38,4 +38,5 @@ public class Usuario {
 	
 	@ManyToMany(cascade=CascadeType.ALL, fetch=FetchType.EAGER)
 	private Set<Rol> roles = new HashSet<>();
+
 }
